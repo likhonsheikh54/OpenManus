@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ROOT=/opt/.manus/.sandbox-runtime
+PYTHONPATH=$ROOT $ROOT/.venv/bin/python -m utilities.render-diagram "$@"
